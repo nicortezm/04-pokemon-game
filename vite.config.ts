@@ -13,4 +13,5 @@ export default defineConfig({
       '@pokemon': fileURLToPath(new URL('./src/modules/pokemon', import.meta.url)),
     },
   },
+  base: './',
 });
